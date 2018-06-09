@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<!-- XML "Pacman Actor" -->
+
+<Clyde>
+  <TransformComponent>
+    <Transform x="0" y="0" scale="1" width="21" height="20"/>
+  </TransformComponent>
+  <BoxColliderComponent>
+    <Dimensions x="0" y="0" width="21" height="20"/>
+	<Trigger trigger="true"/>
+	<Reaction reactionid="Ghost"/>
+  </BoxColliderComponent>
+  <SquareRenderComponent>
+	<Source filename="Assets\Textures\Clyde.png" x="0" y="0"width="21" height="20"/>
+  </SquareRenderComponent>
+</Clyde>

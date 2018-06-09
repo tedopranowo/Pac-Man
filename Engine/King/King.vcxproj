@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Actors\Actor.cpp" />
+    <ClCompile Include="Source\Actors\ActorFactory.cpp" />
+    <ClCompile Include="Source\Application\Application.cpp" />
+    <ClCompile Include="Source\AudioSystem\AudioSystem.cpp" />
+    <ClCompile Include="Source\CollisionSystem\CollisionSystem.cpp" />
+    <ClCompile Include="Source\Components\ActorComponent.cpp" />
+    <ClCompile Include="Source\Components\AnimationComponent.cpp" />
+    <ClCompile Include="Source\Components\BoxColliderComponent.cpp" />
+    <ClCompile Include="Source\Components\SquareRenderComponent.cpp" />
+    <ClCompile Include="Source\Components\TransformComponent.cpp" />
+    <ClCompile Include="Source\EventSystem\EventManager.cpp" />
+    <ClCompile Include="Source\EventSystem\IEventManager.cpp" />
+    <ClCompile Include="Source\GameLogic\GameLogicBase.cpp" />
+    <ClCompile Include="Source\GameTimer\GameTimer.cpp" />
+    <ClCompile Include="Source\GameView\GameViewBase.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\SquareRenderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\InputSystem\InputSystem.cpp" />
+    <ClCompile Include="Source\InputSystem\SDL_InputInterpreter.cpp" />
+    <ClCompile Include="Source\LuaManager\LuaManager.cpp" />
+    <ClCompile Include="Source\Physics\Vec2.cpp" />
+    <ClCompile Include="Source\ResourceManager\ActorResource.cpp" />
+    <ClCompile Include="Source\ResourceManager\ActorResourceLoader.cpp" />
+    <ClCompile Include="Source\ResourceManager\GraphicResource.cpp" />
+    <ClCompile Include="Source\ResourceManager\GraphicResourceLoader.cpp" />
+    <ClCompile Include="Source\ResourceManager\Resource.cpp" />
+    <ClCompile Include="Source\ResourceManager\ResourceCache.cpp" />
+    <ClCompile Include="Source\ResourceManager\ResourceHandle.cpp" />
+    <ClCompile Include="Source\Tiled\Tiled.cpp" />
+    <ClCompile Include="Source\Xml\tinyxml2.cpp" />
+    <ClCompile Include="Source\Generated\actor.gen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Actors\Actor.h" />
+    <ClInclude Include="Source\Actors\ActorFactory.h" />
+    <ClInclude Include="Source\Actors\TypedefActors.h" />
+    <ClInclude Include="Source\Application\Application.h" />
+    <ClInclude Include="Source\Application\GameOptions.h" />
+    <ClInclude Include="Source\AudioSystem\AudioSystem.h" />
+    <ClInclude Include="Source\CollisionSystem\CollisionSystem.h" />
+    <ClInclude Include="Source\Components\ActorComponent.h" />
+    <ClInclude Include="Source\Components\AnimationComponent.h" />
+    <ClInclude Include="Source\Components\BoxColliderComponent.h" />
+    <ClInclude Include="Source\Components\SquareRenderComponent.h" />
+    <ClInclude Include="Source\Components\TransformComponent.h" />
+    <ClInclude Include="Source\EventSystem\EventManager.h" />
+    <ClInclude Include="Source\EventSystem\IEventManager.h" />
+    <ClInclude Include="Source\EventSystem\TypedefEvents.h" />
+    <ClInclude Include="Source\Events\ActorCreatedEvent.h" />
+    <ClInclude Include="Source\Events\ActorDestroyedEvent.h" />
+    <ClInclude Include="Source\Events\ActorMoveEvent.h" />
+    <ClInclude Include="Source\Events\BaseEventData.h" />
+    <ClInclude Include="Source\Events\EventData.h" />
+    <ClInclude Include="Source\Events\MapLoadedEvent.h" />
+    <ClInclude Include="Source\Events\PanCameraEvent.h" />
+    <ClInclude Include="Source\Events\QuitApplicationEvent.h" />
+    <ClInclude Include="Source\Events\RenderableCreatedEvent.h" />
+    <ClInclude Include="Source\Events\SwitchToFreeFlyModeEvent.h" />
+    <ClInclude Include="Source\Events\SwitchToGameModeEvent.h" />
+    <ClInclude Include="Source\GameLogic\GameLogicBase.h" />
+    <ClInclude Include="Source\GameTimer\GameTimer.h" />
+    <ClInclude Include="Source\GameView\GameViewBase.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\SquareRenderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\InputSystem\IInputInterpreter.h" />
+    <ClInclude Include="Source\InputSystem\InputSystem.h" />
+    <ClInclude Include="Source\InputSystem\SDL_InputInterpreter.h" />
+    <ClInclude Include="Source\LuaManager\LuaManager.h" />
+    <ClInclude Include="Source\LuaManager\TypedefLua.h" />
+    <ClInclude Include="Source\Physics\Vec2.h" />
+    <ClInclude Include="Source\ResourceManager\ActorResource.h" />
+    <ClInclude Include="Source\ResourceManager\ActorResourceLoader.h" />
+    <ClInclude Include="Source\ResourceManager\DefaultResourceLoader.h" />
+    <ClInclude Include="Source\ResourceManager\GraphicResource.h" />
+    <ClInclude Include="Source\ResourceManager\GraphicResourceLoader.h" />
+    <ClInclude Include="Source\ResourceManager\IResourceLoader.h" />
+    <ClInclude Include="Source\ResourceManager\Resource.h" />
+    <ClInclude Include="Source\ResourceManager\ResourceCache.h" />
+    <ClInclude Include="Source\ResourceManager\ResourceHandle.h" />
+    <ClInclude Include="Source\Tiled\Tiled.h" />
+    <ClInclude Include="Source\Xml\tinyxml2.h" />
+    <ClInclude Include="Source\Xml\XMLLoader_Temp.h" />
+    <ClInclude Include="Source\Generated\Actor.gen.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F71CACD1-8D62-4798-8183-495267478A89}</ProjectGuid>
+    <RootNamespace>King</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)Libs\$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(Platform)_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)Logging\Lib\$(Platform)_$(Configuration)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)Libs\$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(Platform)_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)Logging\Lib\$(Platform)_$(Configuration)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <OutDir>$(ProjectDir)Libs\$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(Platform)_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)Logging\Lib\$(Platform)_$(Configuration)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <OutDir>$(ProjectDir)Libs\$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(Platform)_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)Logging\Lib\$(Platform)_$(Configuration)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)Libs\$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(Platform)_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)Logging\Lib\$(Platform)_$(Configuration)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)Libs\$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)Temp\$(Platform)_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)Logging\Lib\$(Platform)_$(Configuration)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_ttf\include\;$(ProjectDir)SDL\SDL2_mixer\include\;$(ProjectDir)SDL\SDL2-2.0.5\include\;$(ProjectDir)SDL\SDL2_image-2.0.1\include\;$(ProjectDir)Lua\lua-5.3.3\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4006; 4221;</DisableSpecificWarnings>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>OS.lib;Logging.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;lua53.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lua\lua-5.3.3\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_mixer\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_ttf\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_image-2.0.1\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2-2.0.5\lib\$(PlatformShortName);$(ProjectDir)..\OS\Lib\$(Platform)_$(Configuration)\;$(ProjectDir)..\Logging\Lib\$(Platform)_$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 /VERBOSE:LIB
+ %(AdditionalOptions)</AdditionalOptions>
+      <SubSystem>
+      </SubSystem>
+    </Lib>
+    <PreBuildEvent>
+      <Command>..\LuaCGenerator\Debug\LuaCGenerator.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_ttf\include\;$(ProjectDir)SDL\SDL2_mixer\include\;$(ProjectDir)SDL\SDL2-2.0.5\include\;$(ProjectDir)SDL\SDL2_image-2.0.1\include\;$(ProjectDir)Lua\lua-5.3.3\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4006; 4221;</DisableSpecificWarnings>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>OS.lib;Logging.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;lua53.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lua\lua-5.3.3\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_mixer\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_ttf\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_image-2.0.1\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2-2.0.5\lib\$(PlatformShortName);$(ProjectDir)..\OS\Lib\$(Platform)_$(Configuration)\;$(ProjectDir)..\Logging\Lib\$(Platform)_$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 /VERBOSE:LIB
+ %(AdditionalOptions)</AdditionalOptions>
+      <SubSystem>
+      </SubSystem>
+    </Lib>
+    <PreBuildEvent>
+      <Command>..\LuaCGenerator\Debug\LuaCGenerator.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_ttf\include\;$(ProjectDir)SDL\SDL2_mixer\include\;$(ProjectDir)SDL\SDL2-2.0.5\include\;$(ProjectDir)SDL\SDL2_image-2.0.1\include\;$(ProjectDir)Lua\lua-5.3.3\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4006; 4221;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>OS.lib;Logging.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;lua53.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lua\lua-5.3.3\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_mixer\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_ttf\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_image-2.0.1\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2-2.0.5\lib\$(PlatformShortName);$(ProjectDir)..\OS\Lib\$(Platform)_$(Configuration)\;$(ProjectDir)..\Logging\Lib\$(Platform)_$(Configuration)\</AdditionalLibraryDirectories>
+      <SubSystem>
+      </SubSystem>
+      <AdditionalOptions>/IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <PreBuildEvent>
+      <Command>..\LuaCGenerator\Debug\LuaCGenerator.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_ttf\include\;$(ProjectDir)SDL\SDL2_mixer\include\;$(ProjectDir)SDL\SDL2-2.0.5\include\;$(ProjectDir)SDL\SDL2_image-2.0.1\include\;$(ProjectDir)Lua\lua-5.3.3\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4006; 4221;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>OS.lib;Logging.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;lua53.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lua\lua-5.3.3\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_mixer\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_ttf\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_image-2.0.1\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2-2.0.5\lib\$(PlatformShortName);$(ProjectDir)..\OS\Lib\$(Platform)_$(Configuration)\;$(ProjectDir)..\Logging\Lib\$(Platform)_$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+      <SubSystem>
+      </SubSystem>
+    </Lib>
+    <PreBuildEvent>
+      <Command>..\LuaCGenerator\Debug\LuaCGenerator.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_ttf\include\;$(ProjectDir)SDL\SDL2_mixer\include\;$(ProjectDir)SDL\SDL2-2.0.5\include\;$(ProjectDir)SDL\SDL2_image-2.0.1\include\;$(ProjectDir)Lua\lua-5.3.3\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4006; 4221;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>OS.lib;Logging.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;lua53.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lua\lua-5.3.3\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_mixer\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_ttf\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_image-2.0.1\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2-2.0.5\lib\$(PlatformShortName);$(ProjectDir)..\OS\Lib\$(Platform)_$(Configuration)\;$(ProjectDir)..\Logging\Lib\$(Platform)_$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+      <SubSystem>
+      </SubSystem>
+    </Lib>
+    <PreBuildEvent>
+      <Command>..\LuaCGenerator\Debug\LuaCGenerator.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)SDL\SDL2_ttf\include\;$(ProjectDir)SDL\SDL2_mixer\include\;$(ProjectDir)SDL\SDL2-2.0.5\include\;$(ProjectDir)SDL\SDL2_image-2.0.1\include\;$(ProjectDir)Lua\lua-5.3.3\include\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4006; 4221;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>OS.lib;Logging.lib;SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;lua53.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Lua\lua-5.3.3\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_mixer\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_ttf\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2_image-2.0.1\lib\$(PlatformShortName);$(ProjectDir)SDL\SDL2-2.0.5\lib\$(PlatformShortName);$(ProjectDir)..\OS\Lib\$(Platform)_$(Configuration)\;$(ProjectDir)..\Logging\Lib\$(Platform)_$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>/IGNORE:4006 %(AdditionalOptions)</AdditionalOptions>
+      <SubSystem>
+      </SubSystem>
+    </Lib>
+    <PreBuildEvent>
+      <Command>..\LuaCGenerator\Debug\LuaCGenerator.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

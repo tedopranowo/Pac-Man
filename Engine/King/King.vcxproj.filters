@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e9e2617d-e0fc-45a6-a291-aeda4c94634c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Actors">
+      <UniqueIdentifier>{06f6e023-8755-41d6-bf0c-49a32fc9845a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EventSystem">
+      <UniqueIdentifier>{46d2ece6-479b-4e89-ac39-d114a816ff06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Components">
+      <UniqueIdentifier>{1e0d7cc5-def7-40b9-b280-6b0fda19a3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Xml">
+      <UniqueIdentifier>{cfc90378-a81c-48f9-9133-92802330dd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResourceManager">
+      <UniqueIdentifier>{825b2496-62a5-4c95-bff0-d084a99edd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{8bcddc6b-3561-441e-a62a-a7e97fe6cfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\InputSystem">
+      <UniqueIdentifier>{438c76c0-b811-4354-bb1d-f0be9cda610e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tiled">
+      <UniqueIdentifier>{b01d7010-67e5-458c-9b15-86ad46361838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Events">
+      <UniqueIdentifier>{c0987851-b606-464b-a971-d3f0b1868d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Application">
+      <UniqueIdentifier>{da917f18-e7a2-4e34-b2cb-54ea3abbd665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LuaManager">
+      <UniqueIdentifier>{f4f60014-7cf8-442f-83be-6cc81b67d837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameLogic">
+      <UniqueIdentifier>{add92ded-cf0f-4ab9-8700-caa0828fcd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameView">
+      <UniqueIdentifier>{fe12234a-bb39-434b-8ee5-9f48a97a9984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Generated">
+      <UniqueIdentifier>{883c5ee4-6f03-48d4-b13c-7efa07a622e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CollisionSystem">
+      <UniqueIdentifier>{926868bc-7aa3-40bc-8e40-0ba3f974b884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameTimer">
+      <UniqueIdentifier>{83b9828a-d015-455a-8f56-ade237f14463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AudioSystem">
+      <UniqueIdentifier>{e22cf5a1-3e57-4383-91fa-ba53c1289aed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Xml\tinyxml2.h">
+      <Filter>Source\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Xml\XMLLoader_Temp.h">
+      <Filter>Source\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventSystem\EventManager.h">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventSystem\IEventManager.h">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventSystem\TypedefEvents.h">
+      <Filter>Source\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Components\ActorComponent.h">
+      <Filter>Source\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actors\Actor.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actors\ActorFactory.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\Resource.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\ResourceHandle.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\IResourceLoader.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\DefaultResourceLoader.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\ResourceCache.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\GraphicResource.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Actors\TypedefActors.h">
+      <Filter>Source\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\ActorResourceLoader.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\ActorResource.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics\Vec2.h">
+      <Filter>Source\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputSystem\IInputInterpreter.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputSystem\InputSystem.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\ActorCreatedEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\BaseEventData.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\EventData.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\MapLoadedEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\PanCameraEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\QuitApplicationEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\RenderableCreatedEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\SwitchToGameModeEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tiled\Tiled.h">
+      <Filter>Source\Tiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager\GraphicResourceLoader.h">
+      <Filter>Source\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\SwitchToFreeFlyModeEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\Application.h">
+      <Filter>Source\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputSystem\SDL_InputInterpreter.h">
+      <Filter>Source\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\GameOptions.h">
+      <Filter>Source\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LuaManager\LuaManager.h">
+      <Filter>Source\LuaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLogic\GameLogicBase.h">
+      <Filter>Source\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameView\GameViewBase.h">
+      <Filter>Source\GameView</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LuaManager\TypedefLua.h">
+      <Filter>Source\LuaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Components\BoxColliderComponent.h">
+      <Filter>Source\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Components\SquareRenderComponent.h">
+      <Filter>Source\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Components\TransformComponent.h">
+      <Filter>Source\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Events\ActorMoveEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\SquareRenderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\CollisionSystem\CollisionSystem.h">
+      <Filter>Source\CollisionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\SquareRenderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\SquareRenderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\*.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\Actor.gen.h">
+      <Filter>Source\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\Actor.gen.h">
+      <Filter>Source\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h" />
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h" />
+    <ClInclude Include="Source\Generated\BoxColliderComponent.gen.h">
+      <Filter>Source\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\TransformComponent.gen.h">
+      <Filter>Source\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameTimer\GameTimer.h">
+      <Filter>Source\GameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Components\AnimationComponent.h">
+      <Filter>Source\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\ActorDestroyedEvent.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Generated\SquareRenderComponent.gen.h">
+      <Filter>Source\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioSystem\AudioSystem.h">
+      <Filter>Source\AudioSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Xml\tinyxml2.cpp">
+      <Filter>Source\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventSystem\EventManager.cpp">
+      <Filter>Source\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventSystem\IEventManager.cpp">
+      <Filter>Source\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\ActorComponent.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actors\Actor.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Actors\ActorFactory.cpp">
+      <Filter>Source\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\Resource.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\ResourceHandle.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\ResourceCache.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\GraphicResource.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\ActorResourceLoader.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\ActorResource.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\Vec2.cpp">
+      <Filter>Source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputSystem\InputSystem.cpp">
+      <Filter>Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tiled\Tiled.cpp">
+      <Filter>Source\Tiled</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager\GraphicResourceLoader.cpp">
+      <Filter>Source\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\Application.cpp">
+      <Filter>Source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputSystem\SDL_InputInterpreter.cpp">
+      <Filter>Source\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LuaManager\LuaManager.cpp">
+      <Filter>Source\LuaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLogic\GameLogicBase.cpp">
+      <Filter>Source\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameView\GameViewBase.cpp">
+      <Filter>Source\GameView</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\BoxColliderComponent.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\SquareRenderComponent.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\TransformComponent.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\SquareRenderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\CollisionSystem\CollisionSystem.cpp">
+      <Filter>Source\CollisionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\SquareRenderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\SquareRenderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\*.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\actor.gen.cpp">
+      <Filter>Source\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\actor.gen.cpp">
+      <Filter>Source\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp" />
+    <ClCompile Include="Source\Generated\BoxColliderComponent.gen.cpp">
+      <Filter>Source\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generated\TransformComponent.gen.cpp">
+      <Filter>Source\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameTimer\GameTimer.cpp">
+      <Filter>Source\GameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Components\AnimationComponent.cpp">
+      <Filter>Source\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Generated\SquareRenderComponent.gen.cpp">
+      <Filter>Source\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioSystem\AudioSystem.cpp">
+      <Filter>Source\AudioSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<!-- XML "Health Actor" -->
+
+<PacmanHealth>
+  <TransformComponent>
+    <Transform x="340" y="30" scale="1.0"/>
+  </TransformComponent>
+  <SquareRenderComponent>
+   <Source filename="Assets\Textures\pacman.png" x="16" y="0" 
+   width="16" height="16"/>
+  </SquareRenderComponent>
+</PacmanHealth>

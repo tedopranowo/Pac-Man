@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+
+<!-- XML "The initial resources to load for the game" -->
+
+<AssetList>
+  <ActorData>
+    <Pacman>Assets\XML\Pacman.xml</Pacman>
+	<RedGhost>Assets\XML\RedGhost.xml</RedGhost>
+	<Pinkie>Assets\XML\Pinkie.xml</Pinkie>
+	<Inkie>Assets\XML\Inkie.xml</Inkie>
+	<Clyde>Assets\XML\Clyde.xml</Clyde>
+	<SmallFood>Assets\XML\SmallFood.xml</SmallFood>
+    <LargeFood>Assets\XML\LargeFood.xml</LargeFood>
+	<PacmanHealth>Assets\XML\PacmanHealth.xml</PacmanHealth>
+	<ScoreText>Assets\XML\ScoreText.xml</ScoreText>
+	<Numbers>Assets\XML\Numbers.xml</Numbers>
+	<GameOver>Assets\XML\GameOver.xml</GameOver>
+  </ActorData>
+  <PngFiles>
+    <PacmanTex>Assets\Textures\pacman.png</PacmanTex>
+    <PacmanMap>Assets\Textures\pacmanmap.png</PacmanMap>
+	<GhostTex>Assets\Textures\redghost.png</GhostTex>
+	<InkieTex>Assets\Textures\inkie.png</InkieTex>
+	<PinkieTex>Assets\Textures\pinkie.png</PinkieTex>
+	<ClydeTex>Assets\Textures\Clyde.png</ClydeTex>
+	<GameOverTex>Assets\Textures\GameOver.png</GameOverTex>
+	 <Collision>Assets\Textures\collision.png</Collision>
+	<SmallFoodTex>Assets\Textures\smallfood.png</SmallFoodTex>
+    <LargeFood>Assets\Textures\largefood.png</LargeFood>
+	<NumberImage>Assets\Textures\Numbers.png</NumberImage>
+	 <ScoreTextImage>Assets\Textures\score.png</ScoreTextImage>
+  </PngFiles>
+</AssetList>

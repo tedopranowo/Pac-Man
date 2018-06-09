@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<!-- XML "Numbers" -->
+
+<Numbers>
+  <TransformComponent>
+    <Transform x="425" y="120" scale="1" width="20" height="14"/>
+  </TransformComponent>	
+  <SquareRenderComponent>
+   <Source filename="Assets\Textures\Numbers.png" x="0" y="0" 
+   width="20" height="14"/>
+  </SquareRenderComponent>
+</Numbers>

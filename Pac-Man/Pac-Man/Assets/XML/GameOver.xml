@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<!-- XML "GameOver Actor" -->
+
+<GameOver>
+  <TransformComponent>
+    <Transform x="50" y="100" scale="1" width="200" height="113"/>
+  </TransformComponent>
+   <SquareRenderComponent>
+	<Source filename="Assets\Textures\GameOver.png" x="0" y="0"width="200" height="113"/>
+  </SquareRenderComponent>
+</GameOver>

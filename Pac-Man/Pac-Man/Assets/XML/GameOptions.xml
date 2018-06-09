@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+
+<GameOptions Title="Pacman" WindowX="100" WindowY="100" WindowWidth="1280" WindowHeight="960" PreloadFile="Assets\XML\Preload.xml"
+             StartMap="Assets\Map\PacmanMapNew.tmx" StartScript="Assets\Script\main.lua" BgMusic=""/>
+

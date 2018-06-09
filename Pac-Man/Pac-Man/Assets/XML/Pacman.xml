@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<!-- XML "Pacman Actor" -->
+
+<Pacman>
+  <TransformComponent>
+    <Transform x="0" y="0" scale="1" width="16" height="16"/>
+  </TransformComponent>
+  <BoxColliderComponent>
+	<Dimensions x="0" y="0" width="16" height="16"/>
+	<Trigger trigger="true"/>
+   </BoxColliderComponent>
+   <SquareRenderComponent>
+	<Source filename="Assets\Textures\pacman.png" x="16" y="0"width="16" height="16"/>
+  </SquareRenderComponent>
+</Pacman>

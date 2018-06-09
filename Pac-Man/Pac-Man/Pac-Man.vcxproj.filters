@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{2485f811-8d05-4c23-aef1-98910a9c0c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{cdd3ff8a-7070-44ad-9cef-b6641ccf4f1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GhostAi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PacmanGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MovementDirection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AiState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Script\main.lua">
+      <Filter>Scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\XML\GameOptions.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="Assets\XML\Preload.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="Assets\XML\Pacman.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="Assets\XML\Map.xml">
+      <Filter>XML</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GhostAi.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map.h" />
+    <ClInclude Include="Source\PacmanGame.h" />
+    <ClInclude Include="Source\Unit.h" />
+    <ClInclude Include="Source\AiFactory.h" />
+    <ClInclude Include="Source\MovementDirection.h" />
+    <ClInclude Include="Source\AiState.h" />
+    <ClInclude Include="Source\AiData.h" />
+  </ItemGroup>
+</Project>

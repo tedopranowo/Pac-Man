@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<!-- XML "Pacman Actor" -->
+
+<LargeFood>
+  <TransformComponent>
+    <Transform x="0" y="0" scale="1" width="12" height="12"/>
+  </TransformComponent>
+	<BoxColliderComponent>
+	<Dimensions x="0" y="0" width="12" height="12"/>
+	<Trigger trigger="true"/>
+   <Reaction reactionid="LargeFood"/>
+   </BoxColliderComponent>
+</LargeFood>
