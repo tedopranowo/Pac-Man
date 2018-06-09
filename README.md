@@ -3,7 +3,7 @@ This is a class project with the objective of re-creating Pac-Man game using Gam
 
 ## Credits
 ### Game Engine
-Shane King
+- Shane King
 ### Pac-Man Code
-Tedo Pranowo
-Kevin Sutrisno
+- Tedo Pranowo
+- Kevin Sutrisno
